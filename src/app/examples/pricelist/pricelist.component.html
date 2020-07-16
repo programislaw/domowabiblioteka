@@ -1,0 +1,241 @@
+<div class="wrapper">
+        <div class="page-header page-header-small-xs" data-parallax="true" style="background-image: url('./assets/img/library/old-books-glass-cabinet.png');">
+            <div class="filter"></div>
+            <div class="container">
+                <div class="motto text-center">
+                        <h1 class="presentation-small-title">Cennik</h1>
+                    <br />
+                </div>
+            </div>
+        </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner">
+                <div class="name">
+                    <h3 class="title">Kalkulator aranżacji<br /></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <p>Proszę zaznacz elementy, które chciałbyś mieć w swojej bibliotece. </p>
+                    <br />
+                </div>
+            </div>
+             <div class="nav-tabs-navigation">
+                <div class="nav-tabs-wrapper">
+                    <ngb-tabset [justify]="'center'">
+                        <ngb-tab title="Wyposażenie antyczne">
+                            <ng-template ngbTabContent >
+                                <div class="row following" id="follows">
+                                    <div class="col-md-6 ml-auto mr-auto">
+                                        <ul class="list-unstyled follows">
+                                            <hr />
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                        <img src="./assets/img/library/regał-wiktorian.jpg" alt="Image" class="img-no-padding img-responsive">
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-4 ml-auto">
+                                                        <h6>Regał wiktoriański<br /><small>2000-5000</small></h6>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                        <div class="form-check">
+                                                            <label class="form-check-label">
+                                                            <input class="form-check-input" type="checkbox" [(ngModel)]="shelveAntique">
+                                                            <span class="form-check-sign"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>    
+                                                </div>
+                                            </li>
+                                            <hr />
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                        <img src="./assets/img/library/fotel-antyczny.png" alt="Image" class="img-no-padding img-responsive">
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-4 ml-auto">
+                                                        <h6>Fotel antyczny<br/><small>1500-3000</small></h6>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                        <div class="form-check">
+                                                            <label class="form-check-label">
+                                                            <input class="form-check-input" type="checkbox" [(ngModel)]="armchairAntique">
+                                                            <span class="form-check-sign"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <hr />
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                        <img src="./assets/img/library/stolik-antyczny.jpg.png" alt="Image" class="img-no-padding img-responsive">
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-4 ml-auto">
+                                                        <h6>Stolik antyczny<br/><small>300-1000</small></h6>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                        <div class="form-check">
+                                                            <label class="form-check-label">
+                                                            <input class="form-check-input" type="checkbox" [(ngModel)]="tableAntique">
+                                                            <span class="form-check-sign"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <hr />
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ngb-tab>
+                        <ngb-tab title="Wyposażenie współczesne">
+                                <ng-template ngbTabContent >
+                                    <div class="row following" id="follows">
+                                        <div class="col-md-6 ml-auto mr-auto">
+                                            <ul class="list-unstyled follows">
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                            <img src="./assets/img/library/regał-modern.jpg" alt="Image" class="img-no-padding img-responsive">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-4 ml-auto">
+                                                            <h6>Regał współczesny<br/><small>200-500</small></h6>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                            <div class="form-check">
+                                                                <label class="form-check-label">
+                                                                <input class="form-check-input" type="checkbox" [(ngModel)]="shelveModern">
+                                                                <span class="form-check-sign"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <hr />
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                            <img src="./assets/img/library/fotel-wspolczesny.png" alt="Image" class="img-no-padding img-responsive">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-4 ml-auto">
+                                                            <h6>Fotel wspołczesny<br /><small>400-1000</small></h6>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                            <div class="form-check">
+                                                                <label class="form-check-label">
+                                                                <input class="form-check-input" type="checkbox" [(ngModel)]="armchairModern">
+                                                                <span class="form-check-sign"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>    
+                                                    </div>
+                                                </li>
+                                                <hr />
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                            <img src="./assets/img/library/stolik-wspolczesny.jpg" alt="Image" class="img-no-padding img-responsive">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-4 ml-auto">
+                                                            <h6>Stolik wspołczesny<br /><small>100-500</small></h6>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                            <div class="form-check">
+                                                                <label class="form-check-label">
+                                                                <input class="form-check-input" type="checkbox" [(ngModel)]="tableModern">
+                                                                <span class="form-check-sign"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>    
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </ng-template>
+                            </ngb-tab>
+                            <ngb-tab title="Księgozbiór">
+                                <ng-template ngbTabContent >
+                                    <div class="row following" id="follows">
+                                        <div class="col-md-6 ml-auto mr-auto">
+                                            <ul class="list-unstyled follows">
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                            <img src="./assets/img/library/bookshelf.png" alt="Image" class="img-no-padding img-responsive">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-4 ml-auto">
+                                                            <h6>Mała biblioteka<br/><small>300-600 volumenów</small></h6>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                            <div class="form-check">
+                                                                <label class="form-check-label">
+                                                                <input class="form-check-input" type="checkbox" [(ngModel)]="smallLibrary">
+                                                                <span class="form-check-sign"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <hr />
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                            <img src="./assets/img/library/bookshelf.png" alt="Image" class="img-no-padding img-responsive">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-4 ml-auto">
+                                                            <h6>Średnia biblioteka<br /><small>600-900</small></h6>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                            <div class="form-check">
+                                                                <label class="form-check-label">
+                                                                <input class="form-check-input" type="checkbox" [(ngModel)]="midleLibrary">
+                                                                <span class="form-check-sign"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>    
+                                                    </div>
+                                                </li>
+                                                <hr />
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                            <img src="./assets/img/library/bookshelf.png" alt="Image" class="img-no-padding img-responsive">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-4 ml-auto">
+                                                            <h6>Większa biblioteka<br /><small>900-1500</small></h6>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-2 ml-auto mr-auto">
+                                                            <div class="form-check">
+                                                                <label class="form-check-label">
+                                                                <input class="form-check-input" type="checkbox" [(ngModel)]="largeLibrary">
+                                                                <span class="form-check-sign"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>    
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </ng-template>
+                            </ngb-tab>
+                        </ngb-tabset>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <br />
+                    <p>{{calculationInfo}}</p>
+                    <br />
+                    <button class="btn btn-outline-default btn-round" (click)="calculate()"><i class="fa fa-cog"></i>Oblicz koszt</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</div>

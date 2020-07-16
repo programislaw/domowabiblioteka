@@ -1,0 +1,18 @@
+{
+"posts": 
+    [
+        {
+        "img": "./assets/img/library/home-library-3.jpg",
+        "title": "Domowa biblioteka oaza spokoju czy narzędzie efektywnej pracy",
+        "content": "W dzisiejszym świeci goniącym niemiłosiernie taka ostoja jak osobny pokój do czytania wydaje się wspaniałą sprawą, ale czy naprawdę jest to tylko miejsce relaks? A może jest to narzędzie pracy równie potrzebne jak telefon czy samochód.",
+        "date": "09-07-2020"
+        },
+        {
+        "img": "./assets/img/library/home-library-2.jpg",
+        "title": "Domowa biblioteka cd..",
+        "content": "W dzisiejszym świeci goniącym niemiłosiernie taka ostoja jak osobny pokój do czytania wydaje się wspaniałą sprawą, ale czy naprawdę jest to tylko miejsce relaks? A może jest to narzędzie pracy równie potrzebne jak telefon czy samochód.",
+        "date": "09-07-2020"
+        }
+    ]
+
+}

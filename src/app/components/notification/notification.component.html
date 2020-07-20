@@ -1,3 +1,22 @@
+<ngb-alert [type]="'success'"  [dismissible]="false">
+    <div class="container">
+        alert XXX
+        <button type="button" name="button" class="close" >
+            <i class="nc-icon nc-simple-remove"></i>
+        </button>
+    </div>
+</ngb-alert>
+  
+<ngb-alert [type]="'danger'"  [dismissible]="false">
+        <div class="container">
+            alert XXX
+            <button type="button" name="button" class="close" >
+                <i class="nc-icon nc-simple-remove"></i>
+            </button>
+        </div>
+    </ngb-alert>
+      
+    
 <p *ngFor="let alert of alerts">
     <ngb-alert [type]="alert.type"  [dismissible]="false">
         <div class="container">

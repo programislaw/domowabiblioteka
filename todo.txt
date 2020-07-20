@@ -1,1 +1,75 @@
 - wielkość biblioteki na radiobox
+- Ładne formatowanie waluty
+- prawa autorskie do zdjęć
+- Ładne zdjęcia
+- podmienić zdjęcia
+- wysyłanie maila ze strony
+- wstawić 2 sensowne wpisy do bloga
+- stworzyć facebook i instagram
+- Ładna galeria
+
+
+#Resources:
+https://www.socialmediatoday.com/marketing/2015-02-27/20-sites-get-free-stock-images-commercial-use
+
+
+- scss?
+- vanilla javascript
+
+
+
+
+TAAS-19246 Testing SWIFT 2020 changes, verification of Gems and MI in each Premium version 2500/2502/2504/2506/304-SP1/305-SP1/305-SP2
+TAAS-19231 Import syntaxes and change the routes to the latest Swift 2020 syntaxes
+TAAS-18968 Support Weblogic Oracle on AWS
+TAAS-19255 Allow uig HttpClient to use SystemProperties so particular TLS version can be configured
+TAAS-19300 Allow uig HttpClient to use SystemProperties so particular TLS version can be configured
+TAAS-18977 Fix Veracode issues for Recs-UI and Recs-Services
+TAAS-19380 Analysis of Split BLT
+TAAS-19274 Recs 2.7 SP1 SWIFT 2020 GEMS: MITI tag definition is not included for MT566 message within FD_PURESWF_mapCA
+TAAS-19355 Recs 2.7 SP1 SWIFT 2020 GEMS:F_537_D1A1_22H_PNTP and  F_537_D1A1_22H_PNTP both kept mandatory in Mapisosec.kb
+TAAS-19356 Recs 2.7 SP1 SWIFT 2020 GEMS:F_537_D1A1B111_22F_TRAN has incorrect tag  tag ":22H::TRAN"
+TAAS-19357 Recs 2.7 SP1 SWIFT 2020 GEMS:field F_537_D1A1B111_22F_PAYM has incorret field name it should be F_537_D1A1B111_22H_PAYM
+TAAS-19358 Recs 2.7 SP1 SWIFT 2020 GEMS:MT537: RELTRAN block appearing in either position of CALDET NOT having two references to it
+TAAS-19368 F_548_C1A11_22F_PNTP and F_548_C1A11_22H_PNTP both kept mandatory in Mapisosec.kb
+TAAS-19369 MT548: RELTRAN block appearing in either position of CALDET NOT having two references to it
+TAAS-19401 TLM-RAP does not work
+TAAS-19451 B_537_D1A1A11 17B tags are not having order according 2020 changes 
+TAAS-19453 block B_537_D1A1BA tags inside this block are in order according to SWIFT 2020 changes
+TAAS-19454 B_537_D1A1B11 and B_537_D1A1B111 tags in this block are not in order as per SWIFT 2020 changes
+TAAS-19459 F_537_D1A1_22F_CALM and F_548_C1A1_22F_CALM is kept mandatory
+
+    TAAS-18326 309418 - Slow automatching
+    TAAS-18659 310319 - custom control process do not work
+    TAAS-18557 310214 - TLM View JVM arguments
+    TAAS-18690 310335 - Issue with Operator Intervention / GEMS loading issues
+    TAAS-18766 310620 - Issue with MI when looking for message feed ids 
+    TAAS-18785 310790 - Match Rules created through SmartRecs automatically changes post save
+    TAAS-18897 311315 - Lack of synchronization between TLM Control and matching
+    TAAS-18912 311260 - Manual Match Error
+    TAAS-18994 311217 - Parent dashboard refresh not working
+    TAAS-19112 312061 - TLS 1.2 Support
+    TAAS-19115 312107 - Gems loading issue
+    TAAS-19252 312488 - Gems loading issue
+    TAAS-19271 312636 - Item Split question
+    TAAS-19295 312775 -  TLM View Shared Favourites - Prevention From Assigning TLM View UserRoles
+
+TAAS-19334 312739 - Lock message observed in control logs
+TAAS-19419 313180 - Bran code enrichment
+TAAS-19448 313094 - Validation on inbox assignment
+
+TAAS-19188 312454 - POC environment to ORAAS
+Questions from CITI client on moving POC environment to ORAAS
+TAAS-19349 312931 - Question on swift 2020
+Questions about 2020 SWIFT message upgrades
+TAAS-19283 312283 - support for TLS 1.2
+CITI
+Disabling TLS1.0 and TLS1.1 protocols breaks TLM Premium 
+TAAS-19359 312834 - Initiation dropdown sort
+Macquarie Bank
+Enhanced sorting on initiation dropdown list 
+
+
+From Brown Brothers Harriman. Lock on TLM RP 3.0.4
+Bug jira created. Waiting for replay if HF is reguired.
+Waiting for confirmation to hide inbox assignment in Exception Detail Popup in Webconnect

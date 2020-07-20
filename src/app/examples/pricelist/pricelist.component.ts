@@ -12,6 +12,7 @@ export class PricelistComponent implements OnInit {
 
     minPrice: number;
     maxPrice: number;
+    isDataCorrect = false;
     shelveAntique = false;
     shelveAntiquePrices: number[] = [2000, 5000];
     shelveModern = false;
@@ -63,10 +64,11 @@ export class PricelistComponent implements OnInit {
         this.maxPrice += this.addPrices(false, this.largeLibrary, this.largeLibraryPrices);
 
         if (this.minPrice <= 0 || !(this.smallLibrary || this.midleLibrary || this.largeLibrary)) {
+            this.isDataCorrect = false;
             this.calculationInfo = 'Proszę zaznaczyć elementy i wielkość księgozbioru przed dokonaniem obliczenia.';
         } else {
-            this.calculationInfo = 'Wstępna wycena twojego projektu powinna zawierać się w zakresie '
-                                   + this.minPrice + ' a ' + this.maxPrice;
+            this.isDataCorrect = true;
+            this.calculationInfo = 'Wstępna wycena twojego projektu powinna zawierać się w zakresie: ';
         }
     }
 

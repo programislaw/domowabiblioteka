@@ -51,7 +51,9 @@ export class PricelistComponent implements OnInit {
         this.minPrice += this.addPrices(true, this.smallLibrary, this.smallLibraryPrices);
         this.minPrice += this.addPrices(true, this.midleLibrary, this.midleLibraryPrices);
         this.minPrice += this.addPrices(true, this.largeLibrary, this.largeLibraryPrices);
-
+        if (this.minPrice > 0) {
+            this.minPrice += this.minPrice * 1.3;
+        }
         this.maxPrice = 0;
         this.maxPrice += this.addPrices(false, this.shelveAntique, this.shelveAntiquePrices) * this.numberOfBookshelfs(false);
         this.maxPrice += this.addPrices(false, this.shelveModern, this.shelveModernPrices) * this.numberOfBookshelfs(false);
@@ -62,7 +64,9 @@ export class PricelistComponent implements OnInit {
         this.maxPrice += this.addPrices(false, this.smallLibrary, this.smallLibraryPrices);
         this.maxPrice += this.addPrices(false, this.midleLibrary, this.midleLibraryPrices);
         this.maxPrice += this.addPrices(false, this.largeLibrary, this.largeLibraryPrices);
-
+        if (this.maxPrice > 0) {
+            this.maxPrice += this.maxPrice * 1.3;
+        }
         if (this.minPrice <= 0 || !(this.smallLibrary || this.midleLibrary || this.largeLibrary)) {
             this.isDataCorrect = false;
             this.calculationInfo = 'Proszę zaznaczyć elementy i wielkość księgozbioru przed dokonaniem obliczenia.';

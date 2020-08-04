@@ -2,15 +2,15 @@
 "posts": 
     [
         {
-        "img": "./assets/img/library/home-library-3.jpg",
+        "img": "./assets/img/library/home-library-2.jpg",
         "title": "Domowa biblioteka oaza spokoju czy narzędzie efektywnej pracy",
         "content": "W dzisiejszym świeci goniącym niemiłosiernie taka ostoja jak osobny pokój do czytania wydaje się wspaniałą sprawą, ale czy naprawdę jest to tylko miejsce relaks? A może jest to narzędzie pracy równie potrzebne jak telefon czy samochód.",
-        "date": "09-07-2020"
+        "date": "01-07-2020"
         },
         {
-        "img": "./assets/img/library/home-library-2.jpg",
-        "title": "Domowa biblioteka cd..",
-        "content": "W dzisiejszym świeci goniącym niemiłosiernie taka ostoja jak osobny pokój do czytania wydaje się wspaniałą sprawą, ale czy naprawdę jest to tylko miejsce relaks? A może jest to narzędzie pracy równie potrzebne jak telefon czy samochód.",
+        "img": "./assets/img/library/home-library-7.jpg",
+        "title": "Biblioteka w gabinecie świadectwem profesjonalizmy i kultu wiedzy.",
+        "content": "Wyobraź sobie twoich gości zaproszonych w sprawach biznesowych przechadzających się po twoim gabiniecie. Stylowe regały wypełnione klasyczną literaturą oraz tą nie tak bardzo klasyczną - twoją ulubioną (Dając wrażenie, że właściciel tego gabinetu to osoba znająca dobrą literaturę ale jednocześnie posiadająca własny gust). Wygodne fotele, stolik i biurko, wszystko dobrane ze smakiem. Czyż to nie jest przestrzeń dająca pewność i zaufanie a jednocześnie wzbudzająca szacunek?",
         "date": "09-07-2020"
         }
     ]
